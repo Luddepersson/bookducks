@@ -1,0 +1,162 @@
+body{
+    background-color: peachpuff;
+    display: flex;  
+    flex-direction: column;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+
+
+}
+header{
+    justify-content: flex-end;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+    
+
+}
+header h1{
+    position: absolute;
+    left: 30px;
+}
+div.books{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    
+    
+    
+}
+div.books h2{
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+    background-color: peachpuff;
+    
+}
+div.bookDiv{
+    background-color: rgb(239, 213, 189);
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+    width: 300px;
+    height: 700px;
+    box-shadow: 5px 5px 5px black;
+    border-radius: 10px;
+    
+    
+}
+div.bookDiv:hover{
+    background-color: rgb(233, 202, 173);
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+    width: 300px;
+    height: 700px;
+    box-shadow: 5px 5px 5px black;
+    border-radius: 10px;
+    transform: scale(0.9);
+    transition: 0.5s;
+
+}
+
+div.bookDiv p{
+    font: 1em sans-serif;
+    margin: 10px;
+}
+
+button{
+    background-color: rgb(233, 224, 216);
+    border: 1px solid black;
+    border-radius: 5x;
+    padding: 2px;
+    margin: 2px;
+    font: 1em sans-serif;
+    box-shadow: 5px 5px 5px black;
+    cursor: pointer;
+}
+#loginContainer{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  
+}
+#identifier{
+    margin: 5px;
+    padding: 3px;
+    border: 1px solid black;
+    border-radius: 3px;
+    left: 50%;
+    top: 50%;
+    
+}
+
+#password{
+   
+    padding: 3px;
+    border: 1px solid black;
+    border-radius: 3px;
+    left: 50%;
+    top: 50%;
+    
+}
+#registerUsername{
+  
+    padding: 3px;
+    border: 1px solid black;
+    border-radius: 3px;
+    left: 50%;
+    top: 50%;
+}
+
+#registerPassword{
+    
+    padding: 3px;
+    border: 1px solid black;
+    border-radius: 3px;
+    left: 50%;
+    top: 50%;
+}
+
+#registerEmail{
+    margin: 5px;
+    padding: 3px;
+    border: 1px solid black;
+    border-radius: 3px;
+    left: 50%;
+    top: 50%;
+}
+
+button#profile{
+    background-color: rgb(233, 224, 216);
+    border: 1px solid black;
+    border-radius: 5x;
+    padding: 2px;
+    margin: 2px;
+    font: 1em sans-serif;
+    box-shadow: 5px 5px 5px black;
+    cursor: pointer;
+    margin: 5px;
+    padding: 3px;
+    border: 1px solid black;
+    border-radius: 3px;
+    left: 50%;
+    top: 50%;
+}
+#welcomeMessage{
+  font-size: 30px;
+  margin-top: 10px;
+}
